@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank User Registration Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required />
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phoneNumber">Phone Number</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+
+      <label for="confirmPassword">Confirm Password</label>
+      <input
+        type="password"
+        id="confirmPassword"
+        name="confirmPassword"
+        required
+      />
+
+      <label for="mothersMaidenName">Mother's Maiden Name</label>
+      <input
+        type="text"
+        id="mothersMaidenName"
+        name="mothersMaidenName"
+        required
+      />
+
+      <label for="bvn">BVN</label>
+      <input type="text" id="bvn" name="bvn" required />
+
+      <label for="accountNumber">Account Number</label>
+      <input type="text" id="accountNumber" name="accountNumber" required />
+
+      <label for="nationality">Nationality</label>
+      <input type="text" id="nationality" name="nationality" required />
+
+      <label for="residentialAddress">Residential Address</label>
+      <textarea
+        id="residentialAddress"
+        name="residentialAddress"
+        rows="4"
+        required
+      ></textarea>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required />
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="maritalStatus">Marital Status</label>
+      <select id="maritalStatus" name="maritalStatus" required>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorced">Divorced</option>
+        <option value="widowed">Widowed</option>
+      </select>
+
+      <label for="description">Brief Description of Yourself</label>
+      <textarea
+        id="description"
+        name="description"
+        rows="4"
+        required
+      ></textarea>
+
+      <label for="passport">Upload Your Passport</label>
+      <input
+        type="file"
+        id="passport"
+        name="passport"
+        accept="image/*"
+        required
+      />
+
+      <label for="accountType">Type of Account</label>
+      <select id="accountType" name="accountType" required>
+        <option value="savings">Savings Account</option>
+        <option value="current">Current Account</option>
+      </select>
+
+      <label for="stateOfOrigin">State of Origin</label>
+      <input type="text" id="stateOfOrigin" name="stateOfOrigin" required />
+
+      <label for="socialMedia">Link to Your Social Media Account</label>
+      <input type="url" id="socialMedia" name="socialMedia" required />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
